@@ -1,0 +1,45 @@
+#solid{                                      /* Border  */ 
+    background-color:white;
+    border: 3.5px solid black;
+    }
+
+#dotted{
+    background-color: white;
+    border: 3.5px dotted black;
+}
+
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    display: inline-block;
+   }
+
+  .rectangle1 {
+    height: 150px;
+    width: 50px;
+    background-color:indigo;
+     display: inline-block;
+     margin-left: 10px;
+     margin-right: 50px;
+  }
+
+  .rectangle2 {
+    height: 200px;
+    width: 500px;
+    background-color: forestgreen;
+    display: inline-block;
+    margin-right: 50px;
+    
+  }
+
+  .rect3 {
+      display: block;
+      margin: auto;
+      box-shadow: 10px 10px 5px rgb(63, 62, 62);
+      height: 150px;
+      width: 95%;
+      background-color:lightgoldenrodyellow;
+  }
